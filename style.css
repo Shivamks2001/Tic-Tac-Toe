@@ -2,7 +2,7 @@ body
 {
     text-align: center;
     background-color: black;
-    font-family: cursive;
+    font-family: 'Fredoka One', cursive;
 }
 
 p
@@ -133,7 +133,7 @@ h3
 
     p
     {
-        font-family: 1rem;
+        font-size: 1rem;
     }
 
     .score
