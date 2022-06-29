@@ -1,0 +1,221 @@
+body
+{
+    text-align: center;
+    background-color: black;
+    font-family: cursive;
+}
+
+p
+{
+    font-size: 1.5rem;
+}
+
+h3
+{
+    font-size: 1.5rem;
+}
+
+.score
+{
+    position: relative;
+    margin: 3% 0;
+}
+
+.player1,.player2,.tie
+{
+    display: inline-block;
+    color: #fff;
+}
+
+.tie
+{
+    margin: 0 5%;
+}
+
+.count
+{
+    display: inline-block;
+    height: 6vh;
+    width: 100%;
+}
+
+.game
+{
+    position: relative;
+    /* margin-top: 3%; */
+}
+
+.vLine
+{
+    position: relative;
+    display: inline-block;
+    height: 70vh;
+    width: 0.25vw;
+    background-color: #fff;
+}
+
+.vertical-line1
+{
+    right: 5.5vw;
+}
+
+.vertical-line2
+{
+    left: 5.5vw;
+}
+
+.hLine
+{
+    position: absolute;
+    height: 0.5vh;
+    width: 36vw;
+    top: 32.5%;
+    left: 32%;
+    background-color: #fff;
+}
+
+.h-line2
+{
+    top: 65%;
+}
+
+.box
+{
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
+    height: 18vh;
+    width: 9vw;
+    color: #fff;
+}
+
+.box1, .box2, .box3
+{
+    top: 2.5%;
+}
+
+.box4, .box5, .box6
+{
+    top: 36.25%;
+}
+
+.box7, .box8, .box9
+{
+    top: 69.5%;
+}
+
+.box1, .box4, .box7
+{
+    left: 33.5%
+}
+
+.box2, .box5, .box8
+{
+    left: 45.5%;
+}
+
+.box3, .box6, .box9
+{
+    left: 57.5%;
+}
+
+.winAinmate
+{
+    text-shadow: 2px 2px #fff;
+}
+
+@media (max-width : 920px) {
+
+    h3
+    {
+        font-size: 1.25rem;
+    }
+
+    p
+    {
+        font-family: 1rem;
+    }
+
+    .score
+    {
+        padding: 0;
+        margin-bottom: 10%;
+    }
+
+    .vertical-line1
+    {
+        right: 10vw;
+    }
+
+    .vertical-line2
+    {
+        left: 10vw;
+    }
+
+    .vLine
+    {
+        height: 40vh;
+        width: 1vw;
+    }
+
+    .hLine
+    {
+        height: 0.5vh;
+        width: 70vw;
+        top: 30%;
+        left: 14%;
+    }
+    .h-line2
+    {
+        top: 60%;
+    }
+
+    .box
+    {
+        font-size: 3.5rem;
+        height: 10vh;
+        width: 20vw;
+    }
+
+    .box1, .box2, .box3
+    {
+        top: 1.75%;
+    }
+
+    .box4, .box5, .box6
+    {
+        top: 32.25%;
+    }
+
+    .box7, .box8, .box9
+    {
+        top: 63.75%;
+    }
+
+    .box1, .box4, .box7
+    {
+        left: 17%;
+    }
+
+    .box2, .box5, .box8
+    {
+        left: 40%;
+    }
+
+    .box3, .box6, .box9
+    {
+        left: 63%;
+    }
+
+}
+
+@media (max-width: 300px) {
+    p
+    {
+        font-size: 0.75rem;
+    }
+    h3
+    {
+        font-size: 1rem;
+    }
+}
